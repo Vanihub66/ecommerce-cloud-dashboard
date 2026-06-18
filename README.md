@@ -1,8 +1,6 @@
-📊 Enterprise Cloud-Integrated E-Commerce Analytics & ML Engine
+#📊 Enterprise Cloud-Integrated E-Commerce Analytics & ML Engine
 A high-performance Business Intelligence (BI) web application that processes e-commerce transactional data, manages cloud-ready data pipelines, and runs predictive machine learning models to forecast company revenue.
-
-🔗 
-
+🔗 Live Application Link:
 🚀 Key Architectural Highlights
 Production-Ready Data Cleaning: Automated pipeline handling duplicate removal, systematic missing-value imputation (demographic median matching), and feature engineering.
 
@@ -26,7 +24,7 @@ Data Visualization: Plotly Express, Matplotlib
 Deployment & Hosting: Streamlit Community Cloud
 
 📁 Repository Structure
-Plaintext
+
 ├── app.py                  # Main Streamlit Web Application & ML Core
 ├── data_cleaning.py        # Baseline Backend Data Processing Pipeline Script
 ├── requirements.txt        # Production dependency log file
@@ -46,28 +44,3 @@ The storage layer attempts a cloud session connection using credentials to pull 
 
 3. Predictive Modeling Engine
 Using historical marketing performance metrics, the system trains a Linear Regression model. The dashboard presents an intuitive slider interface allowing end-users to simulate marketing spend projections, mapping the trends instantly on a Plotly curve graph.
-
-💻 Local Implementation Guide
-To clone and execute this infrastructure locally on your workspace, perform the following system routines:
-
-Clone this repository:
-
-git clone https://github.com/your-username/ecommerce-cloud-dashboard.git
-cd ecommerce-cloud-dashboard
-
-
-2. **Install all production dependencies:**
-   ```bash
-pip install -r requirements.txt
-Launch the interactive application server:
-
-streamlit run app.py
-
-
----
-
-## 📈 Executive Performance Insights Provided
-
-* **Aggregated Gross Revenue & Profit Margins:** High-level metrics tracking financial stability.
-* **Product Vertical Dimensions:** Comparative categorical visual matrix tracking high-performing sectors.
-* **Future Growth Trajectories:** Trend-line forecast indicators projecting upcoming organizational financial states.
